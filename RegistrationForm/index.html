@@ -1,0 +1,68 @@
+<!DocType html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>RegistrationForm</title>
+			<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="media.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+			
+	   
+
+            <body>
+                <section class="Registeration-form">
+                    <div class="container">
+                        <div class="row">
+
+                            <form onsubmit=" return  validation()">
+                                <div class="form">
+                                    <h1>Registration Form</h1>
+
+                                    <div class="type">
+                                        <input id="firstname" type="text"placeholder="First Name"><br>
+                                        <span id="content1"style="color:red;display: none;">Please Enter Your Name</span>
+                                    </div>
+
+                                    <div class="type">
+                                        <input id="lastname" type="text"placeholder="Last Name"><br>
+                                        <span id="content2"style="color:red;display: none;">Please Enter Your lastname</span>
+                                    </div>
+
+                                    <div class="type">
+                                        <input id="email" type="text" placeholder="Email Address"><br>
+                                        <span id="content3"style="color:red;display: none;">Please Enter Your Email</span>
+                                    </div>
+                                    
+                                    <div class="type">
+                                        <input id="password" type="password"placeholder="Password"><br>
+                                        <span id="content4"style="color:red;display: none;">Please Enter the password</span>
+                                        <span id ="content"style="color:red;display: none;"> Enter the 8 digit password</span>
+                                    </div>
+                
+                                    <div class="terms"> 
+                                        <input type="checkbox" id="checked" required> I accept <a href="">Terms of Use</a> 
+                                    </div>
+
+                                    <div class="btn">
+                                        <button  type="submit" id="butn">Register</button>
+                                    </div>
+                                    
+                                    <div class="butn">
+                                        <button type="sumbit" id="goto">Go to login page</button>
+                                    </div>
+                                </div>
+                                
+                                
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                
+            <script src="main.js"></script>
+		</body>
+        
+</html>

@@ -1,0 +1,35 @@
+@media(max-width:768px){
+    .Container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .row{
+        width: 100%;
+    }
+    .reg-form{
+        width:100%;
+    }
+}
+
+@media(min-width:767px){
+    .Container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .reg-form{
+        width:90%;
+        height:80vh;
+    }
+}
+
+@media(min-width:992px){
+    .Container{
+        width: 70%;
+        margin: 0 auto;  
+        
+    }
+    .reg-form{
+        width:50%;
+        height:105vh;
+    }
+}

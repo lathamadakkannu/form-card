@@ -1,0 +1,36 @@
+@media(max-width:320px){
+    .card-row{
+        flex-wrap: no wrap;
+    }
+    .card-col{
+        width:100%;
+        height: 50vh;
+        padding:10px;
+    }
+    
+}
+
+@media(max-width:960px){
+    .card-row{
+        flex-wrap:no wrap;
+    }
+    .head-container{
+        width: 100%;
+    }
+    .card-col{
+        width:100%;
+        padding:10px;
+    }
+}
+
+@media(min-width:1000px){
+    .card-row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .card-col{
+        width:33.33%;
+        padding:10px;
+    }
+}
+
